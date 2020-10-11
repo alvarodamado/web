@@ -1,0 +1,41 @@
+body {
+  --primary-text-color: #333;
+  --accent-color-1: #8f0b3e;
+  --background-color: #fefffb;
+  font-family: 'Times New Roman', Times, serif;
+
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+  font-size: 16px;
+}
+
+*::-moz-selection {
+  background-color: var(--accent-color-1);
+  color: var(--background-color);
+}
+*::selection {
+  background-color: var(--accent-color-1);
+  color: var(--background-color);
+}
+
+h1, h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-color-1);
+  box-shadow: none;
+}
+
+header h3:hover {
+  color: var(--accent-color-1);
+}
+
+ul, ol {
+  padding-left: 2rem;
+}
+
+ul li, ol li {
+  text-align: justify;
+}

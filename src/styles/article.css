@@ -1,0 +1,13 @@
+article p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+article h2, article h3 {
+  color: var(--accent-color-1);
+}
+
+article blockquote {
+  
+  border-left-color: var(--accent-color-1);
+}
